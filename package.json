@@ -1,0 +1,27 @@
+{
+  "name": "news_website",
+  "version": "1.0.0",
+  "description": "news website individual project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "dart-sass",
+    "html",
+    "css",
+    "project"
+  ],
+  "author": "Jon Rich",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha1",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.59.3"
+  }
+}

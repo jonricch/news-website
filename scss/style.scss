@@ -1,0 +1,13 @@
+@use "custom";
+
+//COMPONENTS
+
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+//SECTIONS
+
+@use "sections/content";
+@use "sections/navbar";
+@use "sections/footer.scss";

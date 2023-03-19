@@ -1,0 +1,52 @@
+@use "../custom" as *;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  height: 84px;
+}
+
+.menu {
+  background: $blue;
+
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white;
+      text-transform: capitalize;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      align-items: center;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+  }
+  .nav-link.active {
+    color: $yellow;
+  }
+  .nav-link:focus {
+    color: $yellow;
+  }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%282, 102, 255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  margin-left: -2px;
+  margin-bottom: 2px;
+  width: 26.8px;
+  height: 21.8px;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 1px solid #0266ff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
